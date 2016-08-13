@@ -4,3 +4,13 @@ TODO
 
  - Split into 2 stages to be able to prepare a base box
 
+ - Install stack but make the script static to prevent security flaws
+    curl -sSL https://get.haskellstack.org/ | sh
+
+ - Install llvm and other libraries
+    apt-get install llvm-3.5 libedit-dev
+
+ - Configure stack in /home/vagrant/.stack/config.yaml
+
+ - Install global ghc via stack
+    stack setup
