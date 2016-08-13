@@ -1,0 +1,31 @@
+# Ignore everything in the local directory
+/local/**
+!/local/.GITDIRECTORY
+
+# Ignore eclipse stuff
+.project
+.settings
+.classpath
+.factorypath
+.buildpath
+
+# Ignore python stuff
+__pycache__/
+*.py[cod]
+
+# Ignore backups / vim swap files ...
+.*.swp
+.swp
+.*.swo
+.swo
+*.bak
+.DS_Store
+
+# Ignore vagrant's local files
+/.vagrant
+
+# Shared files: Ignore generated files
+/shared/uploads/thumb/**
+/shared/uploads/mp3/**
+!/shared/uploads/thumb/.GITDIRECTORY
+!/shared/uploads/mp3/.GITDIRECTORY
